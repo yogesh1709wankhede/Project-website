@@ -7,7 +7,7 @@
   
   body {
     background-color: #0a0a0a;
-    color: #0f0;
+    color: #d8b7ff; /* Soft purple text */
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
     overflow-x: hidden;
@@ -27,11 +27,11 @@
   .floating-icons i {
     position: absolute;
     font-size: 2rem;
+    color: #ff6f61; /* Pinkish-orange for icons */
     opacity: 0.3;
     animation: float 15s linear infinite;
   }
   
-  /* Specific icon positions and animation durations */
   .icon-cloud {
     top: 10%;
     left: 5%;
@@ -73,7 +73,7 @@
     background: #111;
     padding: 1rem 0;
     text-align: center;
-    border-bottom: 1px solid #0f0;
+    border-bottom: 1px solid #ff6f61;
   }
   
   nav ul {
@@ -87,9 +87,13 @@
   }
   
   nav ul li a {
-    color: #0f0;
+    color: #d8b7ff;
     text-decoration: none;
     font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff6f61;
   }
   
   /* Hero Section */
@@ -110,7 +114,7 @@
   .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #ff8c00;
+    background: #ff6f61;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -124,13 +128,21 @@
     background: #121212;
     max-width: 800px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(15, 255, 15, 0.2);
+    box-shadow: 0 0 10px rgba(255,111,97,0.2);
   }
   
   section h2 {
-    border-bottom: 2px solid #0f0;
+    border-bottom: 2px solid #ff6f61;
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+  }
+  
+  /* Section Images */
+  .section-img, .project-img {
+    width: 100%;
+    max-width: 100%;
+    margin: 1rem 0;
+    border-radius: 5px;
   }
   
   /* Project and Blog Post Cards */
@@ -139,12 +151,12 @@
     margin-bottom: 1.5rem;
     padding: 1rem;
     background: #1a1a1a;
-    border-left: 3px solid #0f0;
+    border-left: 3px solid #ff6f61;
   }
   
   .project a,
   .blog-post a {
-    color: #ff8c00;
+    color: #ff6f61;
     text-decoration: none;
     font-weight: bold;
   }
@@ -159,16 +171,16 @@
   form textarea {
     margin-bottom: 1rem;
     padding: 10px;
-    border: 1px solid #333;
+    border: 1px solid #444;
     border-radius: 3px;
     background: #222;
-    color: #0f0;
+    color: #d8b7ff;
   }
   
   form button {
     padding: 10px;
-    background: #0f0;
-    color: #0a0a0a;
+    background: #ff6f61;
+    color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -180,7 +192,7 @@
     text-align: center;
     padding: 1rem;
     background: #111;
-    color: #0f0;
-    border-top: 1px solid #0f0;
+    color: #d8b7ff;
+    border-top: 1px solid #ff6f61;
   }
-  
+s  
